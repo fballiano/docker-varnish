@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 MAINTAINER Fabrizio Balliano <fabrizio@fabrizioballiano.com>
 
 RUN apt-get update && apt-get install -y varnish vim && apt-get clean
